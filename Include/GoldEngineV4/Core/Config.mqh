@@ -360,7 +360,7 @@ public:
       m_tmAtrMultiplier          = 2.0;
       m_minTrailDistance         = 50.0;
       m_maxTrailDistance         = 250.0;
-      m_enableProfitLock         = true;
+      m_enableProfitLock         = false; // Off by default to allow trades to hold across candles
       m_profitLockStep           = 250.0; // 25.0 Pips step
       m_minLockedProfit          = 100.0; // 10.0 Pips min lock
 
